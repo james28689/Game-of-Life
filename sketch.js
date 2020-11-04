@@ -79,8 +79,5 @@ function draw() {
   background(255,255,255);
   console.log(board);
   display(board);
-  board = updateBoard(board);
-  console.log(board);
-  display(board);
 }
 
