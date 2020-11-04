@@ -77,10 +77,10 @@ board[1][10] = 1;
 
 function draw() {
   background(255,255,255);
-  print(board);
+  console.log(board);
   display(board);
   board = updateBoard(board);
-  print(board);
+  console.log(board);
   display(board);
 }
 
